@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --cor-um: #E8A963;
+    --cor-dois: #CDC19E;
+    --cor-tres: #B7C2B1;
+    --cor-quatro: #94B5BA;
+    --cor-grandient: (var(--cor-um var(--cor-dois), var(--cor-tres), var(--cor-quatro)));
+}
+
+.first-div-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-div-navbar p {
+    font-style: italic;
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+
+}
+
+.link-navbar {
+    text-decoration: none;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+
+}
+
+.all-links {
+    display: flex;
+    gap: 30px;
+}
+
+.btn-apply {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+
+}
+
+.btn-apply:hover {
+    cursor: pointer;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-financial {
+    background-image: linear-gradient(to right, #E8A963, #b4b4b4);
+    font-weight: 500;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-left: -880px;
+    border: #E8A963 solid 1px;
+
+}
+
+.first-content {
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    margin-left: -500px;
+}
+
+.mini-card {
+    background-image: linear-gradient(to right, #E8A963, #CDC19E, #B7C2B1, #b4b4b4);
+    width: 280px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin-right: -600px;
+    padding: 20px;
+    padding-top: 80px;
+    position: absolute;
+    margin-top: -1000px;
+
+
+
+}
+
+.title-mini-card {
+    font-weight: 600;
+}
+
+.btn-apply-2 {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 130px;
+    height: 35px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: -880px;
+
+}
+
+.btn-apply-2:hover {
+    cursor: pointer;
+}
+
+.btn-about-us {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    width: 100px;
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+    margin-top: 30px;
+}
+
+.title-main-content {
+    font-size: 4em;
+    font-weight: 600;
+}
+
+.title-rbg {
+    font-weight: 600;
+    background: -webkit-linear-gradient(#E8A963, #94B5BA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.paragraph-main-content {
+    font-size: 13px;
+    width: 400px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.paragraph-mini-card {
+    font-size: 13px;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.imagem-cliente {
+    margin-top: 150px;
+
+}
+
+.main-img {
+    border-radius: 10px;
+}
+
+.btn-process {
+    background-image: linear-gradient(to right, #E8A963, #b4b4b4);
+    font-weight: 500;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: #E8A963 solid 1px;
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.second-section-h1{
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.clientes-dois {
+    width: 400px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.small-box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px 10px;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 50px;
+
+}
+
+.caixa-um {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.caixa-dois {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.caixinhas {
+    width: 200px;
+    height: 130px;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+    border: #E8A963 solid 1px;
+
+}
+
+.h3-caixinhas {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.link-caixinha {
+    text-decoration: none;
+    color: #3E8086;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+
+.terceira-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient( to left, var(--cor-quatro),var(--cor-tres),var(--cor-dois),var(--cor-um));
+    color: white;
+    padding-top: 50px;
+
+}
+
+.title-terceira-section{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.div-title-terceira-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+    width: 550px;
+
+}
+
+
+.terceira-section-separacao{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-apply-terceira-section{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+
+}
+
+.div-btn-terceira-section{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.description-terceira-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    gap: 50px;
+    
+    
+
+}
+
+.title-description-terceira-section{
+    font-size: 3.5em;
+    font-weight: 600;
+    border-right: solid 1px white;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-financial-2{
+    background-image: linear-gradient(to right, #E8A963, #b4b4b4);
+    font-weight: 500;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: #E8A963 solid 1px;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+
+}
+
+.title-quarta-section{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.text-quarta-section{
+    width: 500px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+
+    .all-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-apply {
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .main-container {
+        padding: 20px;
+    }
+
+    .first-content {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .btn-financial,
+    .btn-apply-2 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .mini-card {
+        width: 90%;
+        margin: 20px auto;
+        position: relative;
+        margin-top: -500px;
+    }
+
+    .imagem-cliente {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .second-section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .small-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .terceira-section {
+        padding: 20px;
+    }
+
+    .terceira-section-separacao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-title-terceira-section,
+    .description-terceira-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .description-terceira-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .title-description-terceira-section {
+        border-right: none;
+    }
+
+    .btn-financial-2 {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .title-quarta-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .text-quarta-section {
+        width: 100%;
+        text-align: center;
+    }
+}
